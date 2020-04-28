@@ -27,7 +27,7 @@ print('Sample BERT embedding vector - length', len(data_select[0]))
 
 print('Sample BERT embedding vector - note includes negative values', data_select[0])
 
-query = 'Whales are being killed because of covid'
+query = 'write your query here'
 queries = [query]
 query_embeddings = model.encode(queries)
 number_top_matches = 5
